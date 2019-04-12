@@ -1,0 +1,9 @@
+// Fonts
+$body-font: 'PTAstraSans';
+
+@mixin body-font($color:"") {
+  font-family: $body-font;
+  @if $color != "" {
+    color: $color;
+  }
+}
